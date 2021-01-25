@@ -1,0 +1,197 @@
+{
+  "project_info": {
+    "project_number": "1080444748765",
+    "firebase_url": "https://solutiance-apps.firebaseio.com",
+    "project_id": "solutiance-apps",
+    "storage_bucket": "solutiance-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080444748765:android:99705f4a21618f50",
+        "android_client_info": {
+          "package_name": "com.solutiance.dach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080444748765-m1gu4qv1hlnm4jsvah7p65uptt9btju6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9_73Js0xiW4uRxZ9kIYg2IMgb1dthbkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080444748765:android:7665c302d78fe791",
+        "android_client_info": {
+          "package_name": "com.solutiance.dach.develop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080444748765-m1gu4qv1hlnm4jsvah7p65uptt9btju6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9_73Js0xiW4uRxZ9kIYg2IMgb1dthbkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080444748765:android:b521de133a5608b2",
+        "android_client_info": {
+          "package_name": "com.solutiance.erfassungsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080444748765-m1gu4qv1hlnm4jsvah7p65uptt9btju6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9_73Js0xiW4uRxZ9kIYg2IMgb1dthbkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080444748765:android:985e119246258f5d",
+        "android_client_info": {
+          "package_name": "com.solutiance.handwerkerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080444748765-m1gu4qv1hlnm4jsvah7p65uptt9btju6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9_73Js0xiW4uRxZ9kIYg2IMgb1dthbkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080444748765:android:5cf9e60dc3720630",
+        "android_client_info": {
+          "package_name": "com.solutiance.realitycheckapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080444748765-m1gu4qv1hlnm4jsvah7p65uptt9btju6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9_73Js0xiW4uRxZ9kIYg2IMgb1dthbkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080444748765:android:a1d98a718346fdf3",
+        "android_client_info": {
+          "package_name": "com.solutiance.wartungenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080444748765-m1gu4qv1hlnm4jsvah7p65uptt9btju6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9_73Js0xiW4uRxZ9kIYg2IMgb1dthbkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
