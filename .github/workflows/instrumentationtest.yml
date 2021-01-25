@@ -6,7 +6,7 @@ on: push
 jobs:
   # Set the job key. The key is displayed as the job name when a job name is not provided
   test:
-    runs-on: macOS-latest
+    runs-on: macos-10.15
     steps:
     - name: checkout
       uses: actions/checkout@v2
@@ -15,4 +15,4 @@ jobs:
       uses: reactivecircus/android-emulator-runner@v2
       with:
         api-level: 29
-        script: ./gradlew connectedAndroidTest
+        script: ./gradlew connectedCheck #connectedAndroidTest
