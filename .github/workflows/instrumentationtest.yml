@@ -13,8 +13,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Validate build
-      run: ./gradlew assemble
+    #- name: Validate build
+    #  run: ./gradlew assemble
+
+  - name: Change script permissions
+      run: chmod +x ./github_action_emulator_command.sh
 
     - name: Run tests
       uses: reactivecircus/android-emulator-runner@v2
@@ -23,3 +26,9 @@ jobs:
         target: google_apis
         profile: pixel_3a
         script: ./github_action_emulator_command.sh connectedCheck #connectedAndroidTest
+
+    - name: Upload test results
+      uses: actions/upload-artifact@v2
+      with:
+        name: insrumentation-test-results
+        path: ./**/build/reports/androidTests/connected/**
