@@ -25,7 +25,7 @@ jobs:
         api-level: 29
         target: google_apis
         profile: pixel_3a
-        script: ./github_action_emulator_command.sh connectedCheck #connectedAndroidTest
+        script: ./github_action_emulator_command.sh connectedDevelopDebugAndroidTest
 
     - name: Upload test results
       uses: actions/upload-artifact@v2
