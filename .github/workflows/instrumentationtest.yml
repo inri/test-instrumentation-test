@@ -5,14 +5,21 @@ on: push
 
 jobs:
   # Set the job key. The key is displayed as the job name when a job name is not provided
-  test:
+  instrumentationTests:
+    name: InstrumentationTests
     runs-on: macos-10.15
     steps:
-    - name: checkout
+
+    - name: Checkout
       uses: actions/checkout@v2
 
-    - name: run tests
+    - name: Validate build
+      run: ./gradlew Sample:assemble
+
+    - name: Run tests
       uses: reactivecircus/android-emulator-runner@v2
       with:
         api-level: 29
-        script: ./gradlew connectedCheck #connectedAndroidTest
+        target: google_apis
+        profile: pixel_3a
+        script: ./github_action_emulator_command.sh connectedCheck #connectedAndroidTest
