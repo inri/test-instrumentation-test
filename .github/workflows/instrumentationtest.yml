@@ -16,7 +16,7 @@ jobs:
     #- name: Validate build
     #  run: ./gradlew assemble
 
-  - name: Change script permissions
+   - name: Change script permissions
       run: chmod +x ./github_action_emulator_command.sh
 
     - name: Run tests
